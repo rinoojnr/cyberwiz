@@ -1,0 +1,59 @@
+}
+
+
+.image-container{
+    background-color: blue;
+    flex: 3;
+ 
+}
+.info{
+   width: 100%;
+   height: 100%;
+}
+.wwa-headding{
+    font-weight: lighter;
+    font-size: 90px;
+    font-family: initial;
+    text-decoration:underline;
+
+}
+.wwa-whoweare{
+    margin-top:10%;
+    margin-left: 20%;
+    
+}
+/* .wwa-content-black{
+    background-color: black;
+    border-radius: 80px;
+    height: 35vh;
+    width: 80%;
+} */
+.wwa-content{
+    width: 60%;
+    
+    margin-left: 20%;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    font-weight: lighter;
+    display: flex;
+
+}
+/* .www-image{
+    width: 400px;
+    height: 305px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.rectangle1{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    position: initial;
+}
+.rectangle2{
+    height: 250px;
+    width: 250px;
+    position: initial;
+    margin-top: -150px;
+    margin-left: 30px;
+} */

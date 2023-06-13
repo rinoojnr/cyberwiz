@@ -1,0 +1,24 @@
+.footeer-container{
+    width: 100%;
+    color: #fff;
+    background-color: rgb(169, 182, 184);
+    display: flex;
+    /* border-top-left-radius: 75px;
+    border-top-right-radius: 75px; */
+}
+.footer{
+    display: flex;
+    gap:90vh
+
+}
+.socialmeadia{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -5vh;
+}
+.footer-left,.footer-right{
+    padding: 2rem 0rem 2rem 2rem;
+}
+.address,.mail,.phone,.aboutus,.aboutcompany,.socialmeadia{
+    padding: 1rem 0rem 1rem 0rem ;
+}

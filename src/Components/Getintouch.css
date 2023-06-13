@@ -1,0 +1,284 @@
+.top-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100vh;
+}
+.navbar{
+    flex:2;
+}
+.main-container{
+    flex:5;
+    display: flex;
+    color: #222;
+    background-color: green;
+
+}
+.formandconent{
+    display: flex;
+    
+}
+.content-container{
+    background-color:rgb(169, 182, 184);
+    font-weight: bold!important;
+    font-family: monospace;
+    width:504px ;
+    height: 626px;
+
+}
+.headding{
+  margin-top:55%;
+  margin-left: 8%;
+}
+.headding:hover{
+  transform: scale(1.1);
+}
+.headding1:hover{
+  transform: scale(1.1);
+}
+.headding1{
+  margin-left: 8%;
+}
+
+.title{
+    text-align: center;
+    margin-top:-24%;
+}
+
+
+.footer{
+    flex:1;
+}
+h3 {
+    color: hsl(0, 0%, 28%);
+    font-size: 30px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 5px!important;
+    cursor: pointer;
+    
+  }
+  
+  h3 {
+    
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+  *, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  body, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    flex: 4;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    /* position: relative; */
+    background: #3e3e3e;
+    border-radius: 15px;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }
+  
+  .screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4d4d4f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .screen-header-left {
+    margin-right: auto;
+  }
+  
+  .screen-header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+  }
+  
+
+  .screen-header-right {
+    display: flex;
+  }
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 26px;
+  }
+  
+  .app-contact {
+    margin-top:40%;
+    font-size: 10px;
+    color: #888;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  .app-form-control-email{
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: lowercase;
+    outline: none;
+    transition: border-color .2s;
+
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button-send {
+    background: none;
+    border: none;
+    color:grey;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 4%;
+
+  }
+  .app-form-button-cancel {
+    background: none;
+    border: none;
+    color:grey;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    
+    
+    
+  }
+  .app-form-group buttons{
+    display: flex;
+  }
+  
+  .app-form-button-send:hover,.app-form-button-cancel:hover {
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
