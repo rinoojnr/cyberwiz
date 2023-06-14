@@ -22,13 +22,13 @@ const Getintouch = () => {
   });
   console.log(values);
   return (
-    <div className="top-container" id="getintouch">
-      <div className="navbar"></div>
-      <div className="formandconent">
-        <div className="content-container">
-          <h3 className="headding">Touch The Sky Of</h3>
-          <h3 className="headding1"> Infinity With Us</h3>
-        </div>
+    // <div className="top-container" id="getintouch">
+    //   <div className="navbar"></div>
+    //   <div className="formandconent">
+    //     <div className="content-container">
+    //       <h3 className="headding">Touch The Sky Of</h3>
+    //       <h3 className="headding1"> Infinity With Us</h3>
+    //     </div>
 
         <div className="background">
           <div className="container">
@@ -114,8 +114,8 @@ const Getintouch = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      // </div>
+    // </div>
   );
 };
 

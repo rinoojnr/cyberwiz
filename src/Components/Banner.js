@@ -12,8 +12,8 @@ const Banner = () => {
       <div className="mask">
         {/* <video className='intro-image' autoPlay loop muted>
         <source src={viedo} type='video/mp4' />
-        </video> */}
-         {/* <video className='intro-image' autoPlay loop muted>
+        </video>
+         <video className='intro-image' autoPlay loop muted>
         <source src={b} type='video/mp4' />
         </video> */}
       
